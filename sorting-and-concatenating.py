@@ -18,5 +18,3 @@ d = np.array([[2, 3, 6], [6, 9, 0]])
 e = np.array([[7, 1, 2]])
 conc2 = np.concatenate((d, e))
 print(conc2)
-
-
