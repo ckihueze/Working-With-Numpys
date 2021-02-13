@@ -30,3 +30,10 @@ print(" ")
 d = a.reshape(2, 3, -1)
 print(d)
 print(" ")
+
+# You can flatten an array by converting a multi-dimensional array to a 1D array.
+# You can use reshape(-1) to do this
+
+e = np.array([[1, 2, 3], [4, 5, 6]])
+f = e.reshape(-1)
+print(f)
