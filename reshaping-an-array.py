@@ -12,9 +12,15 @@ b = a.reshape(4, 3)
 print(b)
 print(" ")
 
-c = a.reshape(2, 3, 2)
+c = a.reshape(3, 2, 2)
 print(c)
 print(" ")
+
+# You are allowed to have one "unknown" dimension.
+
+# Meaning that you do not have to specify an exact number for one of the dimensions in the reshape method.
+
+# Pass -1 as the value, and NumPy will calculate this number for you.
 
 d = a.reshape(2, 3, -1)
 print(d)
