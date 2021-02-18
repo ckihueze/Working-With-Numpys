@@ -22,6 +22,10 @@ print(b[0, 1])
 
 print(b[1, 3])
 
+# Or you can select elements that satisfy two conditions using the & and | operators:
+
+print(b[(b > 2) & (b < 12)])
+
 # You can select elements that are divisible by 2
 
 print(b[b % 2 == 0])
