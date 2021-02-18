@@ -22,7 +22,7 @@ print(b[0, 1])
 
 print(b[1, 3])
 
-# Or you can select elements that satisfy two conditions using the & and | operators:
+# Or you can select elements that satisfy two conditions using the & operators:
 
 print(b[(b > 2) & (b < 12)])
 
