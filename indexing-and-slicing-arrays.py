@@ -24,7 +24,7 @@ print(b[1, 3])
 
 # You can select elements that are divisible by 2
 
-print(b[b%2==0])
+print(b[b % 2 == 0])
 
 # If you want to select values from your array that fulfill certain conditions, it’s straightforward with NumPy.
 
