@@ -18,6 +18,10 @@ print(a[-2:])
 b = np.array([[1,2,3,4], [5,6,7,8], [9,10,11,12]])
 print(b[0, 1])
 
+# Access the 4th element on 2nd dim
+
+print(b[1, 3])
+
 # If you want to select values from your array that fulfill certain conditions, it’s straightforward with NumPy.
 
 c = np.array([[1, 2, 3, 4], [6, 7, 8, 9]])
