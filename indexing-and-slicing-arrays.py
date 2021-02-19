@@ -38,3 +38,8 @@ print(b[b % 2 == 0])
 
 c = np.array([[1, 2, 3, 4], [6, 7, 8, 9]])
 print(c[c < 6])
+
+# You can also use np.nonzero() to select elements or indices from an array.
+
+d = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
+print(np.nonzero(d > 5))
