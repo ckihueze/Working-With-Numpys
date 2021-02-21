@@ -49,6 +49,7 @@ print(f)
 
 # If you want to generate a list of coordinates where the elements exist, you can zip the arrays, iterate over the list of coordinates, and print them.
 
-list_of_cordinates = zip(e[0], e[1])
+list_of_cordinates = list(zip(e[0], e[1]))
+print(list_of_cordinates)
 for cord in list_of_cordinates:
     print(cord)
