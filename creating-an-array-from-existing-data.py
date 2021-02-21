@@ -4,4 +4,6 @@ import numpy as np
 
 a = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 arr1 = a[3:8]
+arr2 = a[2:5]
 print(arr1)
+print(arr2)
