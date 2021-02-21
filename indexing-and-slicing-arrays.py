@@ -53,3 +53,11 @@ list_of_cordinates = list(zip(e[0], e[1]))
 print(list_of_cordinates)
 for cord in list_of_cordinates:
     print(cord)
+    
+# You can also use np.nonzero() to print the elements in an array that are less than 5
+
+print(d[f])
+
+# You can also use np.nonzero() to print the elements in an array that are greater than 5
+
+print(d[e])
