@@ -42,5 +42,13 @@ print(c[c < 6])
 # You can also use np.nonzero() to select elements or indices from an array.
 
 d = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
-print(np.nonzero(d > 5))
-print(np.nonzero(d < 5))
+e = np.nonzero(d > 5)
+f = np.nonzero(d < 5)
+print(e)
+print(f)
+
+# If you want to generate a list of coordinates where the elements exist, you can zip the arrays, iterate over the list of coordinates, and print them.
+
+list_of_cordinates = zip(e[0], e[1])
+for cord in list_of_cordinates:
+    print(cord)
