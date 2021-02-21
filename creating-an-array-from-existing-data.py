@@ -30,3 +30,7 @@ b1 = np.arange(20).reshape(2, 10)
 print(b1)
 
 print(np.hsplit(b1, 2))
+
+# If you wanted to split your array after the third and fourth column, you’d run:
+
+print(np.hsplit(b1, (3, 4)))
