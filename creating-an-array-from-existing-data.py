@@ -18,10 +18,15 @@ a2 = np.array([[5, 6], [7, 8], [4, 7]])
 # you can stack them vertically with vstack()
  
 print(np.vstack((a1, a2)))
-print(" ")
+
 #  you can stack them horizontally with hstack()
 
 print(np.hstack((a1, a2)))
 
+# You can split an array into several smaller arrays using hsplit. 
+# You can specify either the number of equally shaped arrays to return or the columns after which the division should occur.
+
+b1 = np.arange(20).reshape(2, 10)
+print(b1)
 
 
