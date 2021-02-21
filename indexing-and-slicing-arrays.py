@@ -61,3 +61,8 @@ print(d[f])
 # You can also use np.nonzero() to print the elements in an array that are greater than 5
 
 print(d[e])
+
+# If the element you’re looking for doesn’t exist in the array, then the returned array of indices will be empty.
+
+not_there = np.nonzero(d == 50)
+print(not_there)
