@@ -29,4 +29,4 @@ print(np.hstack((a1, a2)))
 b1 = np.arange(20).reshape(2, 10)
 print(b1)
 
-
+print(np.hsplit(b1, 2))
