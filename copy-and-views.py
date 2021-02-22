@@ -15,7 +15,7 @@ print(arr)
 print(a)
 
 # Make a view, change the original array, and display both arrays:
-
+# The view SHOULD be affected by the changes made to the original array.
 arr1 = np.array([2, 1, 4, 7])
 
 b = arr1.view()
