@@ -6,4 +6,6 @@ import numpy as np
 data = np.array([2, 4])
 ones = np.ones(2, dtype = int)
 
+print(data + ones)
+
 
