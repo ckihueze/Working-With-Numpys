@@ -14,6 +14,14 @@ arr[0] = 20
 print(arr)
 print(a)
 
+# Make a view, change the original array, and display both arrays:
+
+arr1 = np.array([2, 1, 4, 7])
+b = arr.view()
+arr1[0] = 20
+print(arr1)
+print(b)
+
 
 
 
