@@ -16,3 +16,10 @@ print(data * ones)
 print(data2 ** data)
 print(data / data2)
 
+# Basic operations are simple with NumPy.
+# If you want to find the sum of the elements in an array, you’d use sum().
+# This works for 1D arrays, 2D arrays, and arrays in higher dimensions.
+
+print(data.sum())
+print(data2.sum())
+
