@@ -39,3 +39,7 @@ for x in arr2:
 arr3 = np.array([[1, 2, 3], [4, 5, 6]])
 for x in np.nditer(arr3):
     print(x)
+    
+arr4 = np.array([[[1, 2, 3], [4, 5, 6]], [[2, 4, 5], [1, 6, 8]]])
+for x in np.nditer(arr4):
+    print(x)
