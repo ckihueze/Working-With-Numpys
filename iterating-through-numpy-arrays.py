@@ -18,3 +18,11 @@ for y in arr1:
 for z in arr1:
     for a in z:
         print(a)
+        
+# Iterating 3-D Arrays
+# In a 3-D array it will go through all the 2-D arrays.
+
+arr2 = np.array([[[1, 2, 3], [4, 5, 6]], [[2, 4, 5], [1, 6, 8]]])
+for x in arr2:
+    print(x)
+    
