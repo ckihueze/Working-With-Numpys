@@ -53,3 +53,20 @@ for x in np.nditer(arr5):
     print(x)
     
 # see the difference????
+
+
+# Enumerated Iteration Using ndenumerate()
+# Enumeration means mentioning sequence number of somethings one by one.
+# Sometimes we require corresponding index of the element while iterating, the ndenumerate() method can be used for those usecases.
+
+arr6 = np.array([1, 2, 3, 4])
+for x, y in np.ndenumerate(arr6):
+    print(x, y)
+    
+arr7 = np.array([[2, 3, 5, 7], [2, 1, 7, 9]])
+for x, y in np.ndenumerate(arr7):
+    print(x, y)
+    
+arr8 = np.array([[[1, 2, 3], [4, 5, 6]], [[2, 4, 5], [1, 6, 8]]])
+for x, y in np.ndenumerate(arr8):
+    print(x, y)
