@@ -43,3 +43,13 @@ for x in np.nditer(arr3):
 arr4 = np.array([[[1, 2, 3], [4, 5, 6]], [[2, 4, 5], [1, 6, 8]]])
 for x in np.nditer(arr4):
     print(x)
+    
+arr5 = np.arange(6).reshape(2, 3)
+
+for x in arr5:
+    print(x)
+    
+for x in np.nditer(arr5):
+    print(x)
+    
+# see the difference????
