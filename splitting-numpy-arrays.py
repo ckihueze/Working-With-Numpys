@@ -14,3 +14,13 @@ print(np.array_split(a, 3))
 
 b = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9])
 print(np.array_split(b, 4))
+
+# Accessing the splited Arrays
+# If you split an array into 3 arrays, you can access them from the result just like any array element:
+
+c = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9])
+splited_array = np.array_split(c, 3)
+
+print(splited_array[0])
+print(splited_array[1])
+print(splited_array[2])
