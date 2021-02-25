@@ -20,5 +20,14 @@ print(np.concatenate((c, d), axis = 1))
 # We pass a sequence of arrays that we want to join to the stack() method along with the axis. 
 # If axis is not explicitly passed it is taken as 0.
 
-print(np.stack((a, b)))
 print(np.stack((a, b), axis = 1))
+
+# Stacking Along Rows
+# NumPy provides a helper function: hstack() to stack along rows.
+
+print(np.hstack((a, b)))
+
+# Stacking Along Columns
+# NumPy provides a helper function: vstack() to stack along columns.
+
+print(np.vstack((a, b)))
