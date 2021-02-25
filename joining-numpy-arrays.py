@@ -21,18 +21,21 @@ print(np.concatenate((c, d), axis = 1))
 # If axis is not explicitly passed it is taken as 0.
 
 print(np.stack((a, b), axis = 1))
-
+print(np.stack((c, d), axis = 1))
 # Stacking Along Rows
 # NumPy provides a helper function: hstack() to stack along rows.
 
 print(np.hstack((a, b)))
+print(np.hstack((c, d)))
 
 # Stacking Along Columns
 # NumPy provides a helper function: vstack() to stack along columns.
 
 print(np.vstack((a, b)))
+print(np.vstack((c, d)))
 
 # Stacking Along Height (depth)
 # NumPy provides a helper function: dstack() to stack along height, which is the same as depth.
 
 print(np.dstack((a, b)))
+print(np.dstack((c, d)))
