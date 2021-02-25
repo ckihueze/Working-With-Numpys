@@ -36,3 +36,7 @@ print(np.array_split(d, 2))
 # The example below also returns three 2-D arrays, but they are split along the row (axis=1).
 
 print(np.array_split(d, 2, axis = 1))
+
+# An alternate solution is using hsplit() opposite of hstack()
+
+print(np.hsplit(d, 2))
