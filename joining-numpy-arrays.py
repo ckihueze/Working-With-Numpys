@@ -13,3 +13,12 @@ print(np.concatenate((a, b)))
 c = np.array([[1, 2, 4, 7], [3, 9, 0, 6]])
 d = np.array([[3, 1, 5, 2], [0, 4, 7, 1]])
 print(np.concatenate((c, d), axis = 1))
+
+# Joining Arrays Using Stack Functions
+# Stacking is same as concatenation, the only difference is that stacking is done along a new axis.
+# We can concatenate two 1-D arrays along the second axis which would result in putting them one over the other, ie. stacking.
+# We pass a sequence of arrays that we want to join to the stack() method along with the axis. 
+# If axis is not explicitly passed it is taken as 0.
+
+print(np.stack((a, b)))
+print(np.stack((a, b), axis = 1))
