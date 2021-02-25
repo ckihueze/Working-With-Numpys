@@ -31,3 +31,8 @@ print(np.hstack((a, b)))
 # NumPy provides a helper function: vstack() to stack along columns.
 
 print(np.vstack((a, b)))
+
+# Stacking Along Height (depth)
+# NumPy provides a helper function: dstack() to stack along height, which is the same as depth.
+
+print(np.dstack((a, b)))
