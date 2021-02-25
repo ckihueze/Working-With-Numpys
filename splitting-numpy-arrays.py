@@ -24,3 +24,15 @@ splited_array = np.array_split(c, 3)
 print(splited_array[0])
 print(splited_array[1])
 print(splited_array[2])
+
+# Splitting 2-D Arrays
+# Use the same syntax when splitting 2-D arrays.
+# Use the array_split() method, pass in the array you want to split and the number of splits you want to do.
+
+d = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [3, 6, 1, 0], [2, 6, 1, 0]])
+print(np.array_split(d, 2))
+
+# In addition, you can specify which axis you want to do the split around.
+# The example below also returns three 2-D arrays, but they are split along the row (axis=1).
+
+print(np.array_split(d, 2, axis = 1))
