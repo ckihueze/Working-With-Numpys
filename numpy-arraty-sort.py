@@ -12,3 +12,9 @@ print(np.sort(a))
 
 name = np.array(['Ihueze', 'Kingsley', 'Chima'])
 print(np.sort(name))
+
+# Sorting a 2-D Array
+# If you use the sort() method on a 2-D array, both arrays will be sorted:
+
+b = np.array([[3, 1, 8], [5, 2, 6]])
+print(np.sort(b))
