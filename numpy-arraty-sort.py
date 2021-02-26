@@ -7,3 +7,8 @@ import numpy as np
 
 a = np.array([3, 7, 1, 0, 2, 6])
 print(np.sort(a))
+
+# You can also sort arrays of strings, or any other data type:
+
+name = np.array(['Ihueze', 'Kingsley', 'Chima'])
+print(np.sort(name))
