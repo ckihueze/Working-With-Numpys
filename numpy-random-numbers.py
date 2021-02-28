@@ -28,4 +28,5 @@ print(y)
 
 # Generate a 1-D array containing 5 random integers from 0 to 100:
 
-
+z = random.randint(50, size = (5))
+print(z)
