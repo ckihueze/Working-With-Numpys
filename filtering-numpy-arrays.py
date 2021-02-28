@@ -48,3 +48,9 @@ print(filter_arr2)
 filter_arr3 = arr > 3
 print(filter_arr3)
 print(arr[filter_arr3])
+
+# Create a filter array that will return only even elements from the original array:
+
+filter_arr4 = arr % 2 == 0
+print(filter_arr4)
+print(arr[filter_arr4])
