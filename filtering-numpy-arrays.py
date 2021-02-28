@@ -6,9 +6,23 @@
 
 import numpy as np
 
-a = np.array([1, 2, 3, 4, 5])
+arr = np.array([1, 2, 3, 4, 5])
 b = [True, False, True, False, True]
-print(a[b])
+print(arr[b])
 
 # Creating the Filter Array
 # In the example above we hard-coded the True and False values, but the common use is to create a filter array based on conditions.
+
+filter_arr = []
+
+# go through each element in arr
+
+for x in arr:
+    # if the element is higher than 2, set the value to True, otherwise False:
+    if x > 2:
+        filter_arr.append(True)
+    else:
+        filter_arr.append(False)
+new_arr = arr[filter_arr]
+print(new_arr)
+print(filter_arr)
