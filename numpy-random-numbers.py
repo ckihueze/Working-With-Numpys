@@ -30,3 +30,21 @@ print(y)
 
 z = random.randint(50, size = (5))
 print(z)
+
+# Generate a 2-D array with 3 rows, each row containing 5 random integers from 0 to 100:
+
+j = random.randint(100, size = (3, 5))
+print(j)
+
+# Floats
+# The rand() method also allows you to specify the shape of the array.
+# Generate a 1-D array containing 5 random floats:
+
+k = random.rand(5)
+print(k)
+
+# Generate Random Number From Array
+# The choice() method allows you to generate a random value based on an array of values.
+# The choice() method takes an array as a parameter and randomly returns one of the values.
+# Return one of the values in an array:
+
