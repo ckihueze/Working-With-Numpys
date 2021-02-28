@@ -9,3 +9,6 @@ import numpy as np
 a = np.array([1, 2, 3, 4, 5])
 b = [True, False, True, False, True]
 print(a[b])
+
+# Creating the Filter Array
+# In the example above we hard-coded the True and False values, but the common use is to create a filter array based on conditions.
