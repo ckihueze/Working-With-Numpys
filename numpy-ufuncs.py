@@ -14,4 +14,15 @@
 # list 2: [4, 5, 6, 7]
 
 # One way of doing it is to iterate over both of the lists and then sum each elements.
+# Without ufunc, we can use Python's built-in zip() method:
 
+x = [4, 6, 2, 7]
+y = [4, 9, 6, 7]
+z = []
+
+for a, b in zip(x, y):
+    z.append(a + b)
+print(z)
+
+# NumPy has a ufunc for this, called add(x, y) that will produce the same result.
+# With ufunc, we can use the add() function:   
