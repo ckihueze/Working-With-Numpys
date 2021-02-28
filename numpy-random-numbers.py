@@ -48,3 +48,16 @@ print(k)
 # The choice() method takes an array as a parameter and randomly returns one of the values.
 # Return one of the values in an array:
 
+print(random.choice([1, 2, 4, 6, 9, 5, 7]))
+
+
+# The choice() method also allows you to return an array of values.
+# Add a size parameter to specify the shape of the array.
+# Generate a 2-D array that consists of the values in the array parameter (1, 2, 3, 4, 5, 7, 9, and 0):
+
+print(random.choice([1, 2, 3, 4, 5, 7, 9, 0], size = (2, 5)))
+
+
+
+
+
