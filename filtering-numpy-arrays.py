@@ -39,3 +39,12 @@ for x in arr:
 even_arr = arr[filter_arr2]
 print(even_arr)
 print(filter_arr2)
+
+# Creating Filter Directly From Array
+# We can directly substitute the array instead of the iterable variable in our condition and it will work just as we expect it to.
+
+# Create a filter array that will return only values higher than 2:
+
+filter_arr3 = arr > 3
+print(filter_arr3)
+print(arr[filter_arr3])
