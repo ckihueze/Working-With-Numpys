@@ -26,3 +26,16 @@ for x in arr:
 new_arr = arr[filter_arr]
 print(new_arr)
 print(filter_arr)
+
+# Create a filter array that will return only even elements from the original array:
+filter_arr2 = []
+
+for x in arr:
+    if x % 2 == 0:
+        filter_arr2.append(True)
+    else:
+        filter_arr2.append(False)
+        
+even_arr = arr[filter_arr2]
+print(even_arr)
+print(filter_arr2)
