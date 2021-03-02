@@ -30,3 +30,4 @@ print(z)
 # With ufunc, we can use the add() function:
 
 print(np.add(x, y))
+print(np.add(y, x))
